@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d58142ab.js",
+    "static/js/80.0dd3522f.js": "/static/js/80.0dd3522f.js",
+    "static/media/wander-bg.png": "/static/media/wander-bg.6c23577b80fb5c8e7787.png",
+    "static/media/Merriweather-Regular.ttf": "/static/media/Merriweather-Regular.da67ca8c38ef44c4773d.ttf",
+    "static/media/image.png": "/static/media/image.89e9b54bca2169a3cb01.png",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Magra-Regular.ttf": "/static/media/Magra-Regular.d93136e2789be37d3ea1.ttf",
+    "static/media/pic_empty.png": "/static/media/pic_empty.26621c2337b68e3f69ef.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "static/media/back.png": "/static/media/back.a730e661e5ee946d552a.png",
+    "static/media/profile_white.png": "/static/media/profile_white.c34432efe491dfa80ee1.png",
+    "static/media/wander_white.png": "/static/media/wander_white.78153c1aa3e666b5c910.png",
+    "static/media/wander.png": "/static/media/wander.fe643fb478e86201e6b1.png",
+    "static/media/profile.png": "/static/media/profile.7f0e725bfd464d251902.png",
+    "static/media/flow.png": "/static/media/flow.55504fc0ae5d369baa0f.png",
+    "favicon-16.png": "/favicon-16.png",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "main.d58142ab.js.map": "/static/js/main.d58142ab.js.map",
+    "80.0dd3522f.js.map": "/static/js/80.0dd3522f.js.map"
+  },
+  "entrypoints": [
+    "static/js/80.0dd3522f.js",
+    "static/js/main.d58142ab.js"
+  ]
+}

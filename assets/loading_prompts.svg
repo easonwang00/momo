@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="322" height="216">
+	<rect x="8" y="8" width="306" height="64" fill="transparent" opacity="0.80" strokeWidth="0" rx="12" ry="12"/>
+	<rect x="16" y="24" width="290" height="12" fill="#1529C7" rx="8" ry="8">
+		<animate attributeName="fill" values="#1529C7;#8793F2;#1529C7" dur="2s" repeatCount="indefinite"/>
+	</rect>
+	<rect x="16" y="44" width="248" height="12" fill="#1529C7" rx="8" ry="8">
+		<animate attributeName="fill" values="#1529C7;#8793F2;#1529C7" dur="2s" repeatCount="indefinite"/>
+	</rect>
+	<rect x="8" y="96" width="306" height="64" fill="transparent" opacity="0.80"  strokeWidth="0" rx="12" ry="12"/>
+	<rect x="16" y="112" width="290" height="12" fill="#1529C7" rx="8" ry="8">
+		<animate attributeName="fill" values="#1529C7;#8793F2;#1529C7" dur="2s" repeatCount="indefinite"/>
+	</rect>
+	<rect x="16" y="132" width="248" height="12" fill="#1529C7" rx="8" ry="8">
+		<animate attributeName="fill" values="#1529C7;#8793F2;#1529C7" dur="2s" repeatCount="indefinite"/>
+	</rect>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Wander",
+    "slug": "wanderflow",
+    "version": "0.0.3",
+    "orientation": "portrait",
+    "privacy": "unlisted",
+    "icon": "./assets/wander_icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "wanderone",
+    "splash": {
+      "image": "./assets/splash_wander.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/wander_icon.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wanderflow-mmvp.wanderflow",
+      "buildNumber": "3",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Give $(PRODUCT_NAME) permission to use your microphone. Your record wont be shared without your permission."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "one.wander.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b41108e-4ea1-4cc8-94fc-1166c933e289"
+      }
+    },
+    "owner": "wanderflow-mmvp"
+  }
+}
