@@ -41,6 +41,7 @@ export default function UserExpressList({ route, navigation, isProfile }) {
     }
   };
   useEffect(() => {
+    console.log("momo");
     setIsLoading(true);
     setIsLoadingOwn(true);
     getUserExpressQuestionList({

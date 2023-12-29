@@ -3,6 +3,7 @@ import { Animated, View, TouchableOpacity, StyleSheet, Dimensions } from "react-
 import { TabView, SceneMap } from "react-native-tab-view";
 import Explore from "../explore";
 import Express from "../express";
+import Feed from "../feed";
 import Encounter from "../encounter";
 //import "@fontsource/merriweather";
 //import { useFonts, Merriweather_400Regular } from "@expo-google-fonts/merriweather";
@@ -16,7 +17,7 @@ export default class Wander extends React.Component {
     index: 0,
     routes: [
       // { key: "page1", title: "Explore" },
-      { key: "page1", title: "Express" },
+      { key: "page1", title: "" },
       // { key: "page3", title: "Encounter" },
     ],
   };
@@ -52,7 +53,7 @@ export default class Wander extends React.Component {
 
   _renderScene = SceneMap({
     // page1: () => <Explore {...this.props} />,
-    page1: () => <Express {...this.props} />,
+    page1: () => <Feed {...this.props} />,
     // page3: () => <Encounter {...this.props} />,
   });
 

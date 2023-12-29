@@ -1,45 +1,29 @@
 {
   "expo": {
-    "name": "Wander",
-    "slug": "wanderflow",
+    "name": "Momo",
+    "slug": "momo",
     "version": "0.0.3",
     "orientation": "portrait",
     "privacy": "unlisted",
-    "icon": "./assets/wander_icon.png",
+    "icon": "momo_develop/assets/momo/momo_icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "wanderone",
+    "scheme": "momo",
     "splash": {
-      "image": "./assets/splash_wander.png",
-      "resizeMode": "contain",
+      "image": "momo_develop/assets/momo/momo_icon.png",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "icon": "./assets/wander_icon.png",
+      "icon": "momo_develop/assets/momo/momo_icon.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.wanderflow-mmvp.wanderflow",
-      "buildNumber": "3",
+      "buildNumber": "1",
       "infoPlist": {
         "NSMicrophoneUsageDescription": "Give $(PRODUCT_NAME) permission to use your microphone. Your record wont be shared without your permission."
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
       },
-      "package": "one.wander.app"
+      "bundleIdentifier": "com.wanderflow-mmvp.wanderflow"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "5b41108e-4ea1-4cc8-94fc-1166c933e289"
-      }
-    },
-    "owner": "wanderflow-mmvp"
+    "owner": "momo-owner"
   }
 }

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useSignUp } from "@clerk/clerk-expo";
 import Constants from "expo-constants";
 import Back_button from "../../../assets/svg/Back_button";
+import momo_backend from "@/config";
 export default function SignUp({ route, navigation }) {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -22,17 +23,21 @@ export default function SignUp({ route, navigation }) {
         if (!isLoaded) {
           return;
         }
+        // test the communcation with teh backend
         try {
           await signUp.create({
             username,
             emailAddress: email,
             password,
           });
-
-          // https://docs.clerk.dev/popular-guides/passwordless-authentication
           await signUp.prepareEmailAddressVerification({ strategy: "email_code" });
           console.log(signUp);
           navigation.navigate("VerifyCode");
+
+          // After successful signup, make a GET request to the Flask endpoint
+          const response = await fetch({ momo_backend } + "/test");
+          const responseData = await response.text();
+          console.log(responseData); // Log the response from the Flask server
         } catch (err) {
           Alert.alert(err.errors[0].message);
         }
